@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ProyectoBDDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="REGISTRO_102A">
+          <Key>
+            <PropertyRef Name="ID_102A" />
+          </Key>
+          <Property Name="ID_102A" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CED102A" Type="varchar" MaxLength="13" />
+          <Property Name="A102" Type="varchar" MaxLength="4" />
+          <Property Name="A104" Type="varchar" MaxLength="50" />
+          <Property Name="A105" Type="int" />
+          <Property Name="A201" Type="varchar" MaxLength="13" />
+          <Property Name="A202" Type="varchar" MaxLength="100" />
+          <Property Name="A481" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A491" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A710" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A711" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A721" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A712" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A722" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A703" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A713" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A723" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A704" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A714" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A724" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A705" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A715" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A725" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A716" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A717" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A718" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A719" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A720" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A730" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A731" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A729" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A741" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A739" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A751" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A749" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A759" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A769" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A768" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A771" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A772" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A773" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A774" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A775" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A776" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A780" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A777" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A778" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A779" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A740" Type="varchar" MaxLength="50" />
+          <Property Name="A750" Type="varchar" MaxLength="13" />
+          <Property Name="A760" Type="numeric" Precision="3" Scale="0" />
+          <Property Name="A770" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A781" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A782" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A783" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A784" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A786" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A787" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A789" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A832" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A839" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A840" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A842" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A843" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A845" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A846" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A847" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A848" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A849" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A850" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A851" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A852" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A855" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A856" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A857" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A858" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A859" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A869" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A880" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A881" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A882" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A879" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A871" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A872" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A890" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A897" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A898" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A899" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A902" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A903" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A904" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A999" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A905" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A906" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A907" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A908" Type="varchar" MaxLength="20" />
+          <Property Name="A909" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A910" Type="varchar" MaxLength="20" />
+          <Property Name="A911" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A912" Type="varchar" MaxLength="20" />
+          <Property Name="A913" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A915" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A916" Type="varchar" MaxLength="20" />
+          <Property Name="A917" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A918" Type="varchar" MaxLength="20" />
+          <Property Name="A919" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="A920" Type="varchar" MaxLength="20" />
+          <Property Name="A198" Type="varchar" MaxLength="13" />
+          <Property Name="NOMB102A" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="REGISTRO_106">
+          <Key>
+            <PropertyRef Name="ID_106" />
+          </Key>
+          <Property Name="ID_106" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CED106" Type="varchar" MaxLength="13" />
+          <Property Name="B101" Type="varchar" MaxLength="2" />
+          <Property Name="B102" Type="varchar" MaxLength="4" />
+          <Property Name="B201" Type="varchar" MaxLength="13" />
+          <Property Name="B202" Type="varchar" MaxLength="100" />
+          <Property Name="B203" Type="varchar" MaxLength="20" />
+          <Property Name="B204" Type="varchar" MaxLength="20" />
+          <Property Name="B205" Type="varchar" MaxLength="10" />
+          <Property Name="B301" Type="varchar" MaxLength="10" />
+          <Property Name="B302" Type="varchar" MaxLength="50" />
+          <Property Name="B303" Type="varchar" MaxLength="5" />
+          <Property Name="B304" Type="varchar" MaxLength="20" />
+          <Property Name="B305" Type="varchar" MaxLength="5" />
+          <Property Name="B306" Type="varchar" MaxLength="20" />
+          <Property Name="B198" Type="varchar" MaxLength="13" />
+          <Property Name="B199" Type="varchar" MaxLength="13" />
+          <Property Name="B902" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="B903" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="B904" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="B999" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="B905" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="B906" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="B907" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="B925" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="B908" Type="varchar" MaxLength="10" />
+          <Property Name="B909" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="B910" Type="varchar" MaxLength="10" />
+          <Property Name="B911" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="B912" Type="varchar" MaxLength="10" />
+          <Property Name="B913" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="B914" Type="varchar" MaxLength="10" />
+          <Property Name="B915" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="B916" Type="varchar" MaxLength="10" />
+          <Property Name="B917" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="B918" Type="varchar" MaxLength="10" />
+          <Property Name="B919" Type="numeric" Precision="9" Scale="2" />
+          <Property Name="B920" Type="numeric" Precision="9" Scale="2" />
+        </EntityType>
+        <EntityContainer Name="ProyectoBDDModelStoreContainer">
+          <EntitySet Name="REGISTRO_102A" EntityType="Self.REGISTRO_102A" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="REGISTRO_106" EntityType="Self.REGISTRO_106" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ProyectoBDDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="REGISTRO_102A">
+          <Key>
+            <PropertyRef Name="ID_102A" />
+          </Key>
+          <Property Name="ID_102A" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CED102A" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+          <Property Name="A102" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="A104" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="A105" Type="Int32" />
+          <Property Name="A201" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+          <Property Name="A202" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="A481" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A491" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A710" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A711" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A721" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A712" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A722" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A703" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A713" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A723" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A704" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A714" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A724" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A705" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A715" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A725" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A716" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A717" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A718" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A719" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A720" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A730" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A731" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A729" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A741" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A739" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A751" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A749" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A759" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A769" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A768" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A771" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A772" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A773" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A774" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A775" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A776" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A780" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A777" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A778" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A779" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A740" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="A750" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+          <Property Name="A760" Type="Decimal" Precision="3" Scale="0" />
+          <Property Name="A770" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A781" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A782" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A783" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A784" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A786" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A787" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A789" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A832" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A839" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A840" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A842" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A843" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A845" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A846" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A847" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A848" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A849" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A850" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A851" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A852" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A855" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A856" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A857" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A858" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A859" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A869" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A880" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A881" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A882" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A879" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A871" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A872" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A890" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A897" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A898" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A899" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A902" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A903" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A904" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A999" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A905" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A906" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A907" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A908" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="A909" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A910" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="A911" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A912" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="A913" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A915" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A916" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="A917" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A918" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="A919" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="A920" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="A198" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+          <Property Name="NOMB102A" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="REGISTRO_106">
+          <Key>
+            <PropertyRef Name="ID_106" />
+          </Key>
+          <Property Name="ID_106" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CED106" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+          <Property Name="B101" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="B102" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="B201" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+          <Property Name="B202" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="B203" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="B204" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="B205" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="B301" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="B302" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="B303" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="B304" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="B305" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="B306" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="B198" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+          <Property Name="B199" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+          <Property Name="B902" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="B903" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="B904" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="B999" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="B905" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="B906" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="B907" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="B925" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="B908" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="B909" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="B910" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="B911" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="B912" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="B913" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="B914" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="B915" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="B916" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="B917" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="B918" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="B919" Type="Decimal" Precision="9" Scale="2" />
+          <Property Name="B920" Type="Decimal" Precision="9" Scale="2" />
+        </EntityType>
+        <EntityContainer Name="ProyectoBDDEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="REGISTRO_102A" EntityType="Self.REGISTRO_102A" />
+          <EntitySet Name="REGISTRO_106" EntityType="Self.REGISTRO_106" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ProyectoBDDModelStoreContainer" CdmEntityContainer="ProyectoBDDEntities">
+          <EntitySetMapping Name="REGISTRO_102A">
+            <EntityTypeMapping TypeName="ProyectoBDDModel.REGISTRO_102A">
+              <MappingFragment StoreEntitySet="REGISTRO_102A">
+                <ScalarProperty Name="ID_102A" ColumnName="ID_102A" />
+                <ScalarProperty Name="CED102A" ColumnName="CED102A" />
+                <ScalarProperty Name="A102" ColumnName="A102" />
+                <ScalarProperty Name="A104" ColumnName="A104" />
+                <ScalarProperty Name="A105" ColumnName="A105" />
+                <ScalarProperty Name="A201" ColumnName="A201" />
+                <ScalarProperty Name="A202" ColumnName="A202" />
+                <ScalarProperty Name="A481" ColumnName="A481" />
+                <ScalarProperty Name="A491" ColumnName="A491" />
+                <ScalarProperty Name="A710" ColumnName="A710" />
+                <ScalarProperty Name="A711" ColumnName="A711" />
+                <ScalarProperty Name="A721" ColumnName="A721" />
+                <ScalarProperty Name="A712" ColumnName="A712" />
+                <ScalarProperty Name="A722" ColumnName="A722" />
+                <ScalarProperty Name="A703" ColumnName="A703" />
+                <ScalarProperty Name="A713" ColumnName="A713" />
+                <ScalarProperty Name="A723" ColumnName="A723" />
+                <ScalarProperty Name="A704" ColumnName="A704" />
+                <ScalarProperty Name="A714" ColumnName="A714" />
+                <ScalarProperty Name="A724" ColumnName="A724" />
+                <ScalarProperty Name="A705" ColumnName="A705" />
+                <ScalarProperty Name="A715" ColumnName="A715" />
+                <ScalarProperty Name="A725" ColumnName="A725" />
+                <ScalarProperty Name="A716" ColumnName="A716" />
+                <ScalarProperty Name="A717" ColumnName="A717" />
+                <ScalarProperty Name="A718" ColumnName="A718" />
+                <ScalarProperty Name="A719" ColumnName="A719" />
+                <ScalarProperty Name="A720" ColumnName="A720" />
+                <ScalarProperty Name="A730" ColumnName="A730" />
+                <ScalarProperty Name="A731" ColumnName="A731" />
+                <ScalarProperty Name="A729" ColumnName="A729" />
+                <ScalarProperty Name="A741" ColumnName="A741" />
+                <ScalarProperty Name="A739" ColumnName="A739" />
+                <ScalarProperty Name="A751" ColumnName="A751" />
+                <ScalarProperty Name="A749" ColumnName="A749" />
+                <ScalarProperty Name="A759" ColumnName="A759" />
+                <ScalarProperty Name="A769" ColumnName="A769" />
+                <ScalarProperty Name="A768" ColumnName="A768" />
+                <ScalarProperty Name="A771" ColumnName="A771" />
+                <ScalarProperty Name="A772" ColumnName="A772" />
+                <ScalarProperty Name="A773" ColumnName="A773" />
+                <ScalarProperty Name="A774" ColumnName="A774" />
+                <ScalarProperty Name="A775" ColumnName="A775" />
+                <ScalarProperty Name="A776" ColumnName="A776" />
+                <ScalarProperty Name="A780" ColumnName="A780" />
+                <ScalarProperty Name="A777" ColumnName="A777" />
+                <ScalarProperty Name="A778" ColumnName="A778" />
+                <ScalarProperty Name="A779" ColumnName="A779" />
+                <ScalarProperty Name="A740" ColumnName="A740" />
+                <ScalarProperty Name="A750" ColumnName="A750" />
+                <ScalarProperty Name="A760" ColumnName="A760" />
+                <ScalarProperty Name="A770" ColumnName="A770" />
+                <ScalarProperty Name="A781" ColumnName="A781" />
+                <ScalarProperty Name="A782" ColumnName="A782" />
+                <ScalarProperty Name="A783" ColumnName="A783" />
+                <ScalarProperty Name="A784" ColumnName="A784" />
+                <ScalarProperty Name="A786" ColumnName="A786" />
+                <ScalarProperty Name="A787" ColumnName="A787" />
+                <ScalarProperty Name="A789" ColumnName="A789" />
+                <ScalarProperty Name="A832" ColumnName="A832" />
+                <ScalarProperty Name="A839" ColumnName="A839" />
+                <ScalarProperty Name="A840" ColumnName="A840" />
+                <ScalarProperty Name="A842" ColumnName="A842" />
+                <ScalarProperty Name="A843" ColumnName="A843" />
+                <ScalarProperty Name="A845" ColumnName="A845" />
+                <ScalarProperty Name="A846" ColumnName="A846" />
+                <ScalarProperty Name="A847" ColumnName="A847" />
+                <ScalarProperty Name="A848" ColumnName="A848" />
+                <ScalarProperty Name="A849" ColumnName="A849" />
+                <ScalarProperty Name="A850" ColumnName="A850" />
+                <ScalarProperty Name="A851" ColumnName="A851" />
+                <ScalarProperty Name="A852" ColumnName="A852" />
+                <ScalarProperty Name="A855" ColumnName="A855" />
+                <ScalarProperty Name="A856" ColumnName="A856" />
+                <ScalarProperty Name="A857" ColumnName="A857" />
+                <ScalarProperty Name="A858" ColumnName="A858" />
+                <ScalarProperty Name="A859" ColumnName="A859" />
+                <ScalarProperty Name="A869" ColumnName="A869" />
+                <ScalarProperty Name="A880" ColumnName="A880" />
+                <ScalarProperty Name="A881" ColumnName="A881" />
+                <ScalarProperty Name="A882" ColumnName="A882" />
+                <ScalarProperty Name="A879" ColumnName="A879" />
+                <ScalarProperty Name="A871" ColumnName="A871" />
+                <ScalarProperty Name="A872" ColumnName="A872" />
+                <ScalarProperty Name="A890" ColumnName="A890" />
+                <ScalarProperty Name="A897" ColumnName="A897" />
+                <ScalarProperty Name="A898" ColumnName="A898" />
+                <ScalarProperty Name="A899" ColumnName="A899" />
+                <ScalarProperty Name="A902" ColumnName="A902" />
+                <ScalarProperty Name="A903" ColumnName="A903" />
+                <ScalarProperty Name="A904" ColumnName="A904" />
+                <ScalarProperty Name="A999" ColumnName="A999" />
+                <ScalarProperty Name="A905" ColumnName="A905" />
+                <ScalarProperty Name="A906" ColumnName="A906" />
+                <ScalarProperty Name="A907" ColumnName="A907" />
+                <ScalarProperty Name="A908" ColumnName="A908" />
+                <ScalarProperty Name="A909" ColumnName="A909" />
+                <ScalarProperty Name="A910" ColumnName="A910" />
+                <ScalarProperty Name="A911" ColumnName="A911" />
+                <ScalarProperty Name="A912" ColumnName="A912" />
+                <ScalarProperty Name="A913" ColumnName="A913" />
+                <ScalarProperty Name="A915" ColumnName="A915" />
+                <ScalarProperty Name="A916" ColumnName="A916" />
+                <ScalarProperty Name="A917" ColumnName="A917" />
+                <ScalarProperty Name="A918" ColumnName="A918" />
+                <ScalarProperty Name="A919" ColumnName="A919" />
+                <ScalarProperty Name="A920" ColumnName="A920" />
+                <ScalarProperty Name="A198" ColumnName="A198" />
+                <ScalarProperty Name="NOMB102A" ColumnName="NOMB102A" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="REGISTRO_106">
+            <EntityTypeMapping TypeName="ProyectoBDDModel.REGISTRO_106">
+              <MappingFragment StoreEntitySet="REGISTRO_106">
+                <ScalarProperty Name="ID_106" ColumnName="ID_106" />
+                <ScalarProperty Name="CED106" ColumnName="CED106" />
+                <ScalarProperty Name="B101" ColumnName="B101" />
+                <ScalarProperty Name="B102" ColumnName="B102" />
+                <ScalarProperty Name="B201" ColumnName="B201" />
+                <ScalarProperty Name="B202" ColumnName="B202" />
+                <ScalarProperty Name="B203" ColumnName="B203" />
+                <ScalarProperty Name="B204" ColumnName="B204" />
+                <ScalarProperty Name="B205" ColumnName="B205" />
+                <ScalarProperty Name="B301" ColumnName="B301" />
+                <ScalarProperty Name="B302" ColumnName="B302" />
+                <ScalarProperty Name="B303" ColumnName="B303" />
+                <ScalarProperty Name="B304" ColumnName="B304" />
+                <ScalarProperty Name="B305" ColumnName="B305" />
+                <ScalarProperty Name="B306" ColumnName="B306" />
+                <ScalarProperty Name="B198" ColumnName="B198" />
+                <ScalarProperty Name="B199" ColumnName="B199" />
+                <ScalarProperty Name="B902" ColumnName="B902" />
+                <ScalarProperty Name="B903" ColumnName="B903" />
+                <ScalarProperty Name="B904" ColumnName="B904" />
+                <ScalarProperty Name="B999" ColumnName="B999" />
+                <ScalarProperty Name="B905" ColumnName="B905" />
+                <ScalarProperty Name="B906" ColumnName="B906" />
+                <ScalarProperty Name="B907" ColumnName="B907" />
+                <ScalarProperty Name="B925" ColumnName="B925" />
+                <ScalarProperty Name="B908" ColumnName="B908" />
+                <ScalarProperty Name="B909" ColumnName="B909" />
+                <ScalarProperty Name="B910" ColumnName="B910" />
+                <ScalarProperty Name="B911" ColumnName="B911" />
+                <ScalarProperty Name="B912" ColumnName="B912" />
+                <ScalarProperty Name="B913" ColumnName="B913" />
+                <ScalarProperty Name="B914" ColumnName="B914" />
+                <ScalarProperty Name="B915" ColumnName="B915" />
+                <ScalarProperty Name="B916" ColumnName="B916" />
+                <ScalarProperty Name="B917" ColumnName="B917" />
+                <ScalarProperty Name="B918" ColumnName="B918" />
+                <ScalarProperty Name="B919" ColumnName="B919" />
+                <ScalarProperty Name="B920" ColumnName="B920" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
